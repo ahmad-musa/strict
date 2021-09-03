@@ -50,7 +50,7 @@
 }
 
 header .navbar_spacing {
-    padding: 0 190px;
+    padding: 0 250px;
     background-color: var(--white);
 }
 
@@ -144,7 +144,7 @@ header .navbar_spacing {
 /* Header Section Ends */
 
 
-/* Banner Section Starts */
+/* Main Section Starts */
 
 .hero .heading {
     font-size: 120px;
@@ -171,7 +171,6 @@ header .navbar_spacing {
     color: var(--white);
     padding: 32px 42px;
     box-sizing: border-box;
-    
 }
 
 .hero .btn-click {
@@ -200,7 +199,116 @@ header .navbar_spacing {
     color: var(--color2);
 
 }
-/* Banner Section Ends */
+/* Main Section Ends */
+
+
+/* Service Section Starts */
+
+.service .sidewalk{
+    margin: 0 250px;
+}
+
+.service .sidewalk .heading{
+    margin-top: 82px;
+    text-align: center;
+    font-size: 40px;
+    font-family: var(--lato);
+    font-weight: bold;
+    color: var(--color1);
+    /* padding: 232px 0 10px 0; */
+    box-sizing: border-box;
+}
+  
+
+.service .sidewalk .heading:hover{
+    color: var(--color2);
+}
+
+.service .sidewalk .para {
+    font-family: var(--lato);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--ash);
+    margin-top: 32px;
+    /* padding: 32px 42px; */
+    box-sizing: border-box;
+}
+
+.service .sidewalk .col-test {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.service .sidewalk .image_body {
+    margin-bottom: 30px;
+    width: 100px;
+    height: 100px;
+    background: var(--color3_hover);
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+}
+
+.service .sidewalk .image_body .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: var(--color3);
+    left: -100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear .3s;
+}
+
+.service .sidewalk .image_body:hover .overlay {
+    opacity: 1;
+    visibility: visible;
+    left: -50%;
+}
+
+.service .sidewalk .image_body .icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    color: var(--white);
+    text-shadow: 0px 1px 1px rgba(2, 2, 2, 0.4);
+}
+
+
+
+
+
+
+
+
+
+
+.service .sidewalk .head {
+    font-size: 22px;
+    font-family: "Lato";
+    color: var(--color1);
+    text-align: center;
+}
+  
+.service .sidewalk .caption {
+    font-size: 15px;
+    font-family: "Lato";
+    color: rgb(153, 153, 153);
+    text-align: center;
+}
+  
+
+/* Service Section Ends */
 
 
 
