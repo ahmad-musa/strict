@@ -183,8 +183,9 @@ header .navbar_spacing {
     font-family: var(--lato);
     color: var(--white);
     background: transparent;
+    border-radius: 2px;
     margin-top: 15px;
-    padding: 18px 36px;
+    padding: 22px 34px;
     border: 2px solid var(--color2);
 }
 
@@ -196,6 +197,7 @@ header .navbar_spacing {
 
 .hero .icon{
     font-size: 35px;
+    padding: 10px 25px;
     margin-top: 138px;
 }
 
@@ -217,7 +219,7 @@ header .navbar_spacing {
 }
 
 .service .sidewalk .pure_design{
-    padding: 82px 0 110px 0;
+    padding: 82px 250px 110px 250px;
 }
 
 .service .sidewalk .grey_bag{
@@ -438,6 +440,10 @@ header .navbar_spacing {
     padding-right: 250px!important;
 }
 
+.portfolio .sidewalk .rows{
+    padding: 0 250px!important;
+}
+
 .portfolio .sidewalk .col-test {
     display: flex;
     /* justify-content: center; */
@@ -461,9 +467,9 @@ header .navbar_spacing {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: var(--color2_hover) ;
     left: -100%;
     top: 0;
+    background-color: var(--color2_hover) ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -507,16 +513,16 @@ header .navbar_spacing {
 
 /* Contact Section Starts */
 
+.contact{}
 
 .contact .sidewalk{
     box-sizing: border-box;
     background: url("../image/connect.png") no-repeat center;
     background-size: cover;
-    /* height: 300px; */
 }
 
 .contact .sidewalk .overlay{
-    padding: 0 250px;
+    /* padding: 0 250px; */
     background: #2d3950;
     opacity: 0.9;
     height: 700px;
@@ -554,12 +560,10 @@ header .navbar_spacing {
 }
 
 .contact .sidewalk .form{
-    width: 60%;
-    /* margin-top: 33px!important; */
+    width: 40%;
 }
 
 .contact .sidewalk .form .input{
-    /* background: transparent; */
     margin-bottom: 20px;
     color: var(--white);
 }
@@ -604,6 +608,7 @@ header .navbar_spacing {
 
 .contact .sidewalk .form .btn-click{
     border: 2px solid var(--color2);
+    color: var(--white);
     background: transparent;
     padding: 16px 50px;
     font-size: 18px;
@@ -613,7 +618,6 @@ header .navbar_spacing {
 .contact .sidewalk .form .btn-click:hover{
     border: 2px solid var(--color2);
     background: var(--color2);
-    color: var(--white);
  }
 
 /* Contact Section Ends */
@@ -626,7 +630,7 @@ header .navbar_spacing {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 250px;
+    padding: 0 250px;
 }
 
 .footer .text{
@@ -634,10 +638,6 @@ header .navbar_spacing {
     font-family: var(--lato);
     color: var(--ash);
 }
-
-.footer .social{
-
-} 
 
 .footer .social a {
     background: var(--color2);
@@ -648,7 +648,7 @@ header .navbar_spacing {
     margin: 2px 5px;
     border-radius: 2px;
     text-align: center;
-    border: 2px solid var(--color2);
+    border: 1px solid var(--color2);
     position: relative;
 } 
 
@@ -662,12 +662,11 @@ header .navbar_spacing {
 
 .footer .social a:hover{
     background: var(--white);
-    border: 2px solid var(--color2);
+    border: 1px solid var(--color2);
     color: var(--color2);
 } 
 
 .footer .social a:hover i{
-    /* background: var(--white); */
     color: var(--color2);
 } 
 
