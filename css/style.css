@@ -617,3 +617,60 @@ header .navbar_spacing {
  }
 
 /* Contact Section Ends */
+
+/* Footer Section Starts */
+
+.footer{
+    height: 90px;
+    background: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 250px;
+}
+
+.footer .text{
+    font-size: 15px;
+    font-family: var(--lato);
+    color: var(--ash);
+}
+
+.footer .social{
+
+} 
+
+.footer .social a {
+    background: var(--color2);
+    color: var(--white);
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+    margin: 2px 5px;
+    border-radius: 2px;
+    text-align: center;
+    border: 2px solid var(--color2);
+    position: relative;
+} 
+
+.footer .social a i{
+    color: var(--white);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} 
+
+.footer .social a:hover{
+    background: var(--white);
+    border: 2px solid var(--color2);
+    color: var(--color2);
+} 
+
+.footer .social a:hover i{
+    /* background: var(--white); */
+    color: var(--color2);
+} 
+
+
+
+/* Footer Section Ends */
