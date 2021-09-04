@@ -6,54 +6,29 @@
 :root {
     /* colors */
 
-    --color1        : #2d3950;
-    --color2        : #15a4fa;
-    --color2_hover  : #15a2fade;
-    --color3        : #48baff;
-    --color3_hover  : #5fc3ff;
-    --black         : rgb(34, 34, 34);
-    /* --ash           : #b8b9b9; */
-    --ash           : #d6d6d6;
-    --ash           : #999999;
-    --ash_footer    : rgb(153, 153, 153);
-    --img_hover     : #2c374c;
-    --white         : #fff;
-    --offwhite      : #f6f9f9;
-
-
-    /*    
-    --color2_lt   : #e7ad48;
-    --border_clr2 : #cb8d21;
-    --t1-color    : rgb(57, 75, 80);
-    --t2-color    : #062033; */
+    --color1: #2d3950;
+    --color2: #15a4fa;
+    --color2_hover: #15a2fade;
+    --color3: #48baff;
+    --color3_hover: #5fc3ff;
+    --black: rgb(34, 34, 34);
+    --ash: #999999;
+    --ash_footer: rgb(153, 153, 153);
+    --img_hover: #2c374c;
+    --white: #fff;
+    --offwhite: #f6f9f9;
 
     /* fonts */
 
-    --lato      : 'Lato', sans-serif;
-    --opensans  : 'Open Sans', sans-serif;
-    --pacifico  : 'Pacifico', cursive;
+    --lato: 'Lato', sans-serif;
+    --opensans: 'Open Sans', sans-serif;
+    --pacifico: 'Pacifico', cursive;
 
 }
 
 /* Header Section Starts */
 
-.top {
-    width: auto;
-    background: url("../image/bg.png") no-repeat center;
-    background-size: cover;
-    color: var(--white);
-    /* overflow-x: hidden; */
-    /* background-attachment: fixed; */
-}
-
-.overlay {
-    width: auto;
-    background: rgba(0, 0, 0, 0.5);
-    height: 802px;
-    /* height: 800px; */
-}
-
-header .navbar_spacing {
+.header .navbar_spacing {
     padding: 0 250px;
     background-color: var(--white);
 }
@@ -66,10 +41,9 @@ header .navbar_spacing {
     text-transform: uppercase;
 }
 
-#Nav .logo:hover{
+#Nav .logo:hover {
     color: var(--color2);
 }
-
 
 #Nav .icon {
     color: var(--color2);
@@ -148,14 +122,28 @@ header .navbar_spacing {
 /* Header Section Ends */
 
 
+
 /* Main Section Starts */
+
+#home {
+    position: relative;
+}
+
+#home .hero {
+    width: auto;
+    background: url("../image/bg.png") no-repeat center;
+    background-size: cover;
+    color: var(--white);
+    height: 802px;
+}
 
 .hero .heading {
     font-size: 120px;
     font-family: var(--lato);
     font-weight: bold;
     color: var(--white);
-    padding: 232px 0 10px 0;
+    /* padding: 232px 0 10px 0; */
+    margin: 299px 0 10px 0;
     letter-spacing: 3px;
     display: inline-flex;
     justify-content: center;
@@ -164,10 +152,10 @@ header .navbar_spacing {
     box-sizing: border-box;
 }
 
-.hero .heading:hover{
+.hero .heading:hover {
     color: var(--color2);
 }
-  
+
 .hero .para {
     font-family: var(--lato);
     font-size: 20px;
@@ -195,38 +183,31 @@ header .navbar_spacing {
     border: 2px solid var(--white);
 }
 
-.hero .icon{
+.hero .icon {
     font-size: 35px;
     padding: 10px 25px;
-    margin-top: 138px;
+    color: var(--white);
+    margin-top: 80px;
 }
 
-.hero .icon:hover{
+.hero .icon:hover {
     color: var(--color2);
-
 }
+
 /* Main Section Ends */
 
 
 /* Service Section Starts */
 
-.service{
-    /* padding: 0 250px; */
-}
-
-.service .sidewalk{
-    /* padding: 0 250px; */
-}
-
-.service .sidewalk .pure_design{
+.service .sidewalk .pure_design {
     padding: 82px 250px 110px 250px;
 }
 
-.service .sidewalk .grey_bag{
+.service .sidewalk .grey_bag {
     background: var(--offwhite);
 }
 
-.service .sidewalk .heading{
+.service .sidewalk .heading {
     /* margin-top: 82px; */
     text-align: center;
     font-size: 40px;
@@ -235,11 +216,10 @@ header .navbar_spacing {
     color: var(--color1);
     /* padding: 232px 0 10px 0; */
     box-sizing: border-box;
-    /* line-height: 1; */
 }
-  
 
-.service .sidewalk .heading:hover{
+
+.service .sidewalk .heading:hover {
     color: var(--color2);
 }
 
@@ -254,22 +234,22 @@ header .navbar_spacing {
     box-sizing: border-box;
 }
 
-.service .sidewalk .my-65{
+.service .sidewalk .my-65 {
     margin-top: 65px;
-    margin-bottom: 65px;    
+    margin-bottom: 65px;
 }
 
-.service .sidewalk .mx-250{
+.service .sidewalk .mx-250 {
     margin-left: 250px;
     margin-right: 250px;
 }
 
-.service .sidewalk .py-65{
+.service .sidewalk .py-65 {
     padding-top: 65px;
-    padding-bottom: 65px;    
+    padding-bottom: 65px;
 }
 
-.service .sidewalk .px-250{
+.service .sidewalk .px-250 {
     padding-left: 250px;
     padding-right: 250px;
 }
@@ -282,12 +262,11 @@ header .navbar_spacing {
     flex-wrap: wrap;
 }
 
-.service .sidewalk .col-test:hover{
+.service .sidewalk .col-test:hover {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     padding: 20px;
     border-radius: 5px;
 }
-
 
 .service .sidewalk .image_body {
     /* margin-bottom: 30px; */
@@ -300,10 +279,10 @@ header .navbar_spacing {
 }
 
 .service .sidewalk .image_body .overlay {
-    position: absolute;
     height: 100%;
     width: 100%;
     background: var(--color3);
+    position: absolute;
     left: -100%;
     top: 0;
     display: flex;
@@ -320,7 +299,7 @@ header .navbar_spacing {
     left: -50%;
 }
 
-.service .sidewalk .image_body .icon{
+.service .sidewalk .image_body .icon {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -334,20 +313,20 @@ header .navbar_spacing {
 
 .service .sidewalk .head {
     font-size: 22px;
-    font-family: "Lato";
+    font-family: var(--lato);
     color: var(--color1);
     text-align: center;
     margin-top: 32px;
 }
-  
+
 .service .sidewalk .caption {
     font-size: 15px;
-    font-family: "Lato";
-    color: rgb(153, 153, 153);
+    font-family: var(--lato);
+    color: var(--ash);
     text-align: center;
     margin-top: 22px;
 }
-  
+
 
 /* Service Section Ends */
 
@@ -355,20 +334,20 @@ header .navbar_spacing {
 /* Portfolio Section Starts */
 
 
-.portfolio .sidewalk{
+.portfolio .sidewalk {
     /* padding: 0 250px; */
     box-sizing: border-box;
 }
 
-.portfolio .sidewalk .pure_design{
+.portfolio .sidewalk .pure_design {
     padding: 82px 0;
 }
 
-.portfolio .sidewalk .grey_bag{
+.portfolio .sidewalk .grey_bag {
     background: var(--offwhite);
 }
 
-.portfolio .sidewalk .heading{
+.portfolio .sidewalk .heading {
     /* margin-top: 82px; */
     text-align: center;
     font-size: 40px;
@@ -379,9 +358,9 @@ header .navbar_spacing {
     box-sizing: border-box;
     /* line-height: 1; */
 }
-  
 
-.portfolio .sidewalk .heading:hover{
+
+.portfolio .sidewalk .heading:hover {
     color: var(--color2);
 }
 
@@ -396,52 +375,52 @@ header .navbar_spacing {
     box-sizing: border-box;
 }
 
-.portfolio .sidewalk .my-65{
-    margin-top: 65px!important;
-    margin-bottom: 65px!important;    
+.portfolio .sidewalk .my-65 {
+    margin-top: 65px !important;
+    margin-bottom: 65px !important;
 }
 
-.portfolio .sidewalk .mt-65{
-    margin-top: 65px!important;
+.portfolio .sidewalk .mt-65 {
+    margin-top: 65px !important;
 }
 
-.portfolio .sidewalk .mb-65{
-    margin-bottom: 65px!important;    
+.portfolio .sidewalk .mb-65 {
+    margin-bottom: 65px !important;
 }
 
-.portfolio .sidewalk .mt-82{
-    margin-top: 82px!important;
+.portfolio .sidewalk .mt-82 {
+    margin-top: 82px !important;
 }
 
-.portfolio .sidewalk .mb-82{
-    margin-bottom: 82px!important;    
+.portfolio .sidewalk .mb-82 {
+    margin-bottom: 82px !important;
 }
 
-.portfolio .sidewalk .mx-250{
-    margin-left: 250px!important;
-    margin-right: 250px!important;
+.portfolio .sidewalk .mx-250 {
+    margin-left: 250px !important;
+    margin-right: 250px !important;
 }
 
-.portfolio .sidewalk .py-65{
-    padding-top: 65px!important;
-    padding-bottom: 65px!important;    
+.portfolio .sidewalk .py-65 {
+    padding-top: 65px !important;
+    padding-bottom: 65px !important;
 }
 
-.portfolio .sidewalk .pt-65{
-    padding-top: 65px!important;    
+.portfolio .sidewalk .pt-65 {
+    padding-top: 65px !important;
 }
 
-.portfolio .sidewalk .pb-65{
-    padding-bottom: 65px!important;    
+.portfolio .sidewalk .pb-65 {
+    padding-bottom: 65px !important;
 }
 
-.portfolio .sidewalk .px-250{
-    padding-left: 250px!important;
-    padding-right: 250px!important;
+.portfolio .sidewalk .px-250 {
+    padding-left: 250px !important;
+    padding-right: 250px !important;
 }
 
-.portfolio .sidewalk .rows{
-    padding: 0 250px!important;
+.portfolio .sidewalk .rows {
+    padding: 0 250px !important;
 }
 
 .portfolio .sidewalk .col-test {
@@ -454,9 +433,6 @@ header .navbar_spacing {
 }
 
 .portfolio .sidewalk .image_body {
-    /* margin-bottom: 30px; */
-    /* width: 100px;
-    height: 100px; */
     /* background: var(--color3_hover); */
     border-radius: 3px;
     position: relative;
@@ -469,7 +445,7 @@ header .navbar_spacing {
     width: 100%;
     left: -100%;
     top: 0;
-    background-color: var(--color2_hover) ;
+    background-color: var(--color2_hover);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -484,7 +460,7 @@ header .navbar_spacing {
     left: 0%;
 }
 
-.portfolio .sidewalk .image_body .icon{
+.portfolio .sidewalk .image_body .icon {
     font-size: 15px;
     color: var(--white);
     padding: 14px 14px;
@@ -493,7 +469,7 @@ header .navbar_spacing {
     border-radius: 2px;
 }
 
-.portfolio .sidewalk .image_body:hover .icon:hover{
+.portfolio .sidewalk .image_body:hover .icon:hover {
     background-color: var(--white);
     color: var(--color2_hover);
 }
@@ -507,45 +483,39 @@ header .navbar_spacing {
 
 
 
-
-
-
-
 /* Contact Section Starts */
 
-.contact{}
 
-.contact .sidewalk{
+.contact .sidewalk {
     box-sizing: border-box;
     background: url("../image/connect.png") no-repeat center;
     background-size: cover;
 }
 
-.contact .sidewalk .overlay{
+.contact .sidewalk .overlay {
     /* padding: 0 250px; */
     background: #2d3950;
     opacity: 0.9;
     height: 700px;
 }
 
-.contact .sidewalk .pure_design{
-    padding: 82px 0;   
+.contact .sidewalk .pure_design {
+    padding: 82px 0;
 }
 
-.contact .sidewalk .heading{
+.contact .sidewalk .heading {
     /* margin-top: 82px; */
     text-align: center;
     font-size: 41px;
     font-family: var(--lato);
     font-weight: bold;
     color: var(--white);
-    /* padding: 232px 0 10px 0; */
     box-sizing: border-box;
     /* line-height: 1; */
 }
-  
 
-.contact .sidewalk .heading:hover{
+
+.contact .sidewalk .heading:hover {
     color: var(--color2);
 }
 
@@ -559,16 +529,16 @@ header .navbar_spacing {
     box-sizing: border-box;
 }
 
-.contact .sidewalk .form{
+.contact .sidewalk .form {
     width: 40%;
 }
 
-.contact .sidewalk .form .input{
+.contact .sidewalk .form .input {
     margin-bottom: 20px;
     color: var(--white);
 }
 
-.contact .sidewalk .form .input .inputs{
+.contact .sidewalk .form .input .inputs {
     background: transparent;
     border: 2px solid var(--ash);
     height: 52px;
@@ -576,37 +546,32 @@ header .navbar_spacing {
     border-radius: 2px;
 }
 
-.contact .sidewalk .form .inputs:focus{
+.contact .sidewalk .form .inputs:focus {
     border: 2px solid var(--color2_hover);
 }
 
-.contact .sidewalk .form .input .text-area{
+.contact .sidewalk .form .input .text-area {
     height: 150px;
 }
 
-.contact .sidewalk .form .box .checkbox{
+.contact .sidewalk .form .box .checkbox {
     padding: 50px;
     /* width: 120px;  */
     margin: 20px 20px 20px 0;
     /* background: var(--white); */
-    /* border: 2px solid var(--ash); */
     display: inline-flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.contact .sidewalk .form .box{
-    /* padding: 10px; */
-    /* width: 200px; */
-    /* background: var(--white); */
-    /* border: 2px solid var(--ash); */
+.contact .sidewalk .form .box {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 
-.contact .sidewalk .form .btn-click{
+.contact .sidewalk .form .btn-click {
     border: 2px solid var(--color2);
     color: var(--white);
     background: transparent;
@@ -615,16 +580,16 @@ header .navbar_spacing {
     border-radius: 2px;
 }
 
-.contact .sidewalk .form .btn-click:hover{
+.contact .sidewalk .form .btn-click:hover {
     border: 2px solid var(--color2);
     background: var(--color2);
- }
+}
 
 /* Contact Section Ends */
 
 /* Footer Section Starts */
 
-.footer{
+.footer {
     height: 90px;
     background: var(--white);
     display: flex;
@@ -633,7 +598,7 @@ header .navbar_spacing {
     padding: 0 250px;
 }
 
-.footer .text{
+.footer .text {
     font-size: 15px;
     font-family: var(--lato);
     color: var(--ash);
@@ -650,26 +615,24 @@ header .navbar_spacing {
     text-align: center;
     border: 1px solid var(--color2);
     position: relative;
-} 
+}
 
-.footer .social a i{
+.footer .social a i {
     color: var(--white);
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-} 
+    transform: translate(-50%, -50%);
+}
 
-.footer .social a:hover{
+.footer .social a:hover {
     background: var(--white);
     border: 1px solid var(--color2);
     color: var(--color2);
-} 
+}
 
-.footer .social a:hover i{
+.footer .social a:hover i {
     color: var(--color2);
-} 
-
-
+}
 
 /* Footer Section Ends */
