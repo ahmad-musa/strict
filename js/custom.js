@@ -24,77 +24,22 @@ $(document).ready(function(){
 //   });
   
 
+// Magnify Pop Up
 
-$('.owl-carousel').owlCarousel({
-  loop:true,
-  margin:10,
-  nav:true,
-  items:3,
-  autoplay:true,
-  autoplayTimeout:4000,
-  autoplayHoverPause:true,
-  responsive:{
-      0:{
-          items:1
-      },
-      600:{
-          items:1
-      },
-      1000:{
-          items:1
-      }
-  }
+$('#portfolio').magnificPopup({
+    delegate: 'a', // child items selector, by clicking on it popup will open
+    type: 'image',
+    gallery: {
+        enabled: true
+    }
+    // other options
 });
 
-
-
-// Filterizr
-
-$('.gallery_navs a').on('click', function (e) {
-    e.preventDefault();
+$('.fimages').magnificPopup({
+    delegate: 'img', // child items selector, by clicking on it popup will open
+    type: 'image',
+    gallery: {
+        enabled: true
+    }
+    // other options
 });
-
-const options = {
-    animationDuration: 0.5,
-    callbacks: {
-        onInit: function () {
-            console.log('init');
-        },
-        onFilteringStart: function () {
-            console.log('filtering start');
-        },
-        onFilteringEnd: function () {
-            console.log('filtering end');
-        },
-        onShufflingStart: function () {
-            console.log('filtering shuffle');
-        },
-        onShufflingEnd: function () {
-            console.log('suffle end');
-        },
-        onSortingStart: function () {},
-        onSortingEnd: function () {}
-    },
-    filterOutCss: {
-        opacity: 0,
-        transform: 'scale(0.5)'
-    },
-    filterInCss: {
-        opacity: 1,
-        transform: 'scale(1)'
-    },
-    spinner: { // Configuration for built-in spinner
-        enabled: true,
-        fillColor: '#2184D0',
-        styles: {
-            height: '75px',
-            margin: '0 auto',
-            width: '75px',
-            'z-index': 9999,
-        },
-    },
-}
-
-const filterizr = new Filterizr('.gallery_item', options);
-// $('.gallery_item').filterizr(options);
-})

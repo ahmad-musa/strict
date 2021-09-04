@@ -8,6 +8,7 @@
 
     --color1        : #2d3950;
     --color2        : #15a4fa;
+    --color2_hover  : #15a2fade;
     --color3        : #48baff;
     --color3_hover  : #5fc3ff;
     --black         : rgb(34, 34, 34);
@@ -345,6 +346,160 @@ header .navbar_spacing {
   
 
 /* Service Section Ends */
+
+
+/* Portfolio Section Starts */
+
+
+.portfolio .sidewalk{
+    /* padding: 0 250px; */
+    box-sizing: border-box;
+}
+
+.portfolio .sidewalk .pure_design{
+    padding: 82px 0;
+}
+
+.portfolio .sidewalk .grey_bag{
+    background: var(--offwhite);
+}
+
+.portfolio .sidewalk .heading{
+    /* margin-top: 82px; */
+    text-align: center;
+    font-size: 40px;
+    font-family: var(--lato);
+    font-weight: bold;
+    color: var(--color1);
+    /* padding: 232px 0 10px 0; */
+    box-sizing: border-box;
+    /* line-height: 1; */
+}
+  
+
+.portfolio .sidewalk .heading:hover{
+    color: var(--color2);
+}
+
+.portfolio .sidewalk .para {
+    font-family: var(--lato);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--ash);
+    margin-top: 32px;
+    /* padding: 32px 42px; */
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.portfolio .sidewalk .my-65{
+    margin-top: 65px!important;
+    margin-bottom: 65px!important;    
+}
+
+.portfolio .sidewalk .mt-65{
+    margin-top: 65px!important;
+}
+
+.portfolio .sidewalk .mb-65{
+    margin-bottom: 65px!important;    
+}
+
+.portfolio .sidewalk .mt-82{
+    margin-top: 82px!important;
+}
+
+.portfolio .sidewalk .mb-82{
+    margin-bottom: 82px!important;    
+}
+
+.portfolio .sidewalk .mx-250{
+    margin-left: 250px!important;
+    margin-right: 250px!important;
+}
+
+.portfolio .sidewalk .py-65{
+    padding-top: 65px!important;
+    padding-bottom: 65px!important;    
+}
+
+.portfolio .sidewalk .pt-65{
+    padding-top: 65px!important;    
+}
+
+.portfolio .sidewalk .pb-65{
+    padding-bottom: 65px!important;    
+}
+
+.portfolio .sidewalk .px-250{
+    padding-left: 250px!important;
+    padding-right: 250px!important;
+}
+
+.portfolio .sidewalk .col-test {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.portfolio .sidewalk .image_body {
+    /* margin-bottom: 30px; */
+    /* width: 100px;
+    height: 100px; */
+    /* background: var(--color3_hover); */
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio .sidewalk .image_body .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--color2_hover) ;
+    left: -100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear .3s;
+}
+
+.portfolio .sidewalk .col-test:hover .overlay {
+    opacity: 1;
+    visibility: visible;
+    left: 0%;
+}
+
+.portfolio .sidewalk .image_body .icon{
+    font-size: 15px;
+    color: var(--white);
+    padding: 14px 14px;
+    margin: 0 5px;
+    border: 1px solid var(--white);
+    border-radius: 2px;
+}
+
+.portfolio .sidewalk .image_body:hover .icon:hover{
+    background-color: var(--white);
+    color: var(--color2_hover);
+}
+
+.portfolio .image_body img {
+    width: 100%
+}
+
+
+/* Portfolio Section Ends */
+
+
+
+
 
 
 
