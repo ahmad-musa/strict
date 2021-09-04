@@ -14,7 +14,8 @@
     --ash           : #b8b9b9;
     --ash_footer    : rgb(153, 153, 153);
     --img_hover     : #2c374c;
-    --white         : #f6f9f9;
+    --white         : #fff;
+    --offwhite      : #f6f9f9;
 
 
     /*    
@@ -204,12 +205,24 @@ header .navbar_spacing {
 
 /* Service Section Starts */
 
+.service{
+    /* padding: 0 250px; */
+}
+
 .service .sidewalk{
-    margin: 0 250px;
+    /* padding: 0 250px; */
+}
+
+.service .sidewalk .pure_design{
+    padding: 82px 0 110px 0;
+}
+
+.service .sidewalk .grey_bag{
+    background: var(--offwhite);
 }
 
 .service .sidewalk .heading{
-    margin-top: 82px;
+    /* margin-top: 82px; */
     text-align: center;
     font-size: 40px;
     font-family: var(--lato);
@@ -217,6 +230,7 @@ header .navbar_spacing {
     color: var(--color1);
     /* padding: 232px 0 10px 0; */
     box-sizing: border-box;
+    /* line-height: 1; */
 }
   
 
@@ -231,7 +245,28 @@ header .navbar_spacing {
     color: var(--ash);
     margin-top: 32px;
     /* padding: 32px 42px; */
+    text-align: center;
     box-sizing: border-box;
+}
+
+.service .sidewalk .my-65{
+    margin-top: 65px;
+    margin-bottom: 65px;    
+}
+
+.service .sidewalk .mx-250{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.service .sidewalk .py-65{
+    padding-top: 65px;
+    padding-bottom: 65px;    
+}
+
+.service .sidewalk .px-250{
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 .service .sidewalk .col-test {
@@ -242,9 +277,15 @@ header .navbar_spacing {
     flex-wrap: wrap;
 }
 
+.service .sidewalk .col-test:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+}
+
 
 .service .sidewalk .image_body {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     width: 100px;
     height: 100px;
     background: var(--color3_hover);
@@ -268,7 +309,7 @@ header .navbar_spacing {
     transition: all linear .3s;
 }
 
-.service .sidewalk .image_body:hover .overlay {
+.service .sidewalk .col-test:hover .overlay {
     opacity: 1;
     visibility: visible;
     left: -50%;
@@ -286,18 +327,12 @@ header .navbar_spacing {
 
 
 
-
-
-
-
-
-
-
 .service .sidewalk .head {
     font-size: 22px;
     font-family: "Lato";
     color: var(--color1);
     text-align: center;
+    margin-top: 32px;
 }
   
 .service .sidewalk .caption {
@@ -305,6 +340,7 @@ header .navbar_spacing {
     font-family: "Lato";
     color: rgb(153, 153, 153);
     text-align: center;
+    margin-top: 22px;
 }
   
 
