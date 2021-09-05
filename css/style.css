@@ -233,11 +233,9 @@
     box-sizing: border-box;
 }
 
-.service .sidewalk .my-65 {
-    margin-top: 65px;
-    margin-bottom: 65px;
+.service .sidewalk .row{
+    margin: 65px 0;
 }
-
 
 .service .sidewalk .col-test {
     display: flex;
