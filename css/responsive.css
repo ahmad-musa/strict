@@ -1,5 +1,91 @@
 /* // X-Small devices (portrait phones, less than 576px) */
 @media screen and (max-width: 575.98px) { 
+
+    *,body, .home, .service, .portfolio{
+        font-size: 14px;
+    }
+
+    .container-fluid{
+        padding: 0 15px;
+        font-size: 14px;
+        overflow-x: hidden;
+    }
+
+    #home .hero {
+        height: 502px;
+    }
+
+    .hero .heading {
+        font-size: 70px;
+        margin: 150px 0 10px 0;
+        padding-bottom: 10px;
+        width: 60%;
+    }
+    
+    .hero .para {
+        font-size: 14px;
+        padding: 22px 22px;
+        line-height: 1.4;
+    }
+
+    .hero .btn-click {
+        font-size: 14px;
+        margin-top: 15px;
+        padding: 12px 24px;
+    }
+    
+    .hero .icon {
+        font-size: 24px;
+        padding: 10px 25px;
+        margin-top: 20px;
+    }
+
+    .service .sidewalk .heading {
+        font-size: 24px;
+    }
+
+    .service .pure_design {
+        padding: 20px 0;
+    }
+    
+    .service .sidewalk .para {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 1.4;
+        overflow-y: hidden;
+    }
+
+    .service .sidewalk .row {
+        margin: 20px 0;
+    }
+
+    .service .sidewalk .head {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .service .sidewalk .caption {
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        line-height: 1.25;
+    }
+
+    .portfolio .sidewalk .pure_design {
+        padding: 20px 0;
+    }
+
+    .portfolio .sidewalk .heading {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .portfolio .sidewalk .para {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+
     #header .left_p {
         text-align: center;
     }

@@ -74,6 +74,14 @@
 
 /* Side Navbar Starts */
 
+body.side-menu-visible #side-menu {
+    transform: translateX(-230px);
+}
+
+#side-menu {
+    padding: 20px 15px;
+}
+
 #side-menu .close {
     background: var(--white);
     border: 2px solid var(--color2);
@@ -105,7 +113,7 @@
 
 #side-menu .nav-link:hover {
     color: var(--color2);
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 800;
     padding: 8px 6px;
     margin-left: 6px;
