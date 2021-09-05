@@ -1,1 +1,2 @@
 # strict
+### NOT responsive yet
