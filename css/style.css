@@ -28,7 +28,7 @@
 /* Header Section Starts */
 
 .header .navbar_spacing {
-    padding: 0 250px;
+    /* padding: 0 250px; */
     background-color: var(--white);
 }
 
@@ -198,12 +198,12 @@
 
 /* Service Section Starts */
 
-.service .sidewalk .pure_design {
-    padding: 82px 250px 110px 250px;
+.grey_bg{
+    background: var(--offwhite);
 }
 
-.service .sidewalk .grey_bag {
-    background: var(--offwhite);
+.service .pure_design {
+    padding: 82px 0 110px 0;
 }
 
 .service .sidewalk .heading {
@@ -238,20 +238,6 @@
     margin-bottom: 65px;
 }
 
-.service .sidewalk .mx-250 {
-    margin-left: 250px;
-    margin-right: 250px;
-}
-
-.service .sidewalk .py-65 {
-    padding-top: 65px;
-    padding-bottom: 65px;
-}
-
-.service .sidewalk .px-250 {
-    padding-left: 250px;
-    padding-right: 250px;
-}
 
 .service .sidewalk .col-test {
     display: flex;
@@ -342,7 +328,7 @@
     padding: 82px 0;
 }
 
-.portfolio .sidewalk .grey_bag {
+.portfolio .sidewalk .grey_bg {
     background: var(--offwhite);
 }
 
@@ -372,54 +358,6 @@
     /* padding: 32px 42px; */
     text-align: center;
     box-sizing: border-box;
-}
-
-.portfolio .sidewalk .my-65 {
-    margin-top: 65px !important;
-    margin-bottom: 65px !important;
-}
-
-.portfolio .sidewalk .mt-65 {
-    margin-top: 65px !important;
-}
-
-.portfolio .sidewalk .mb-65 {
-    margin-bottom: 65px !important;
-}
-
-.portfolio .sidewalk .mt-82 {
-    margin-top: 82px !important;
-}
-
-.portfolio .sidewalk .mb-82 {
-    margin-bottom: 82px !important;
-}
-
-.portfolio .sidewalk .mx-250 {
-    margin-left: 250px !important;
-    margin-right: 250px !important;
-}
-
-.portfolio .sidewalk .py-65 {
-    padding-top: 65px !important;
-    padding-bottom: 65px !important;
-}
-
-.portfolio .sidewalk .pt-65 {
-    padding-top: 65px !important;
-}
-
-.portfolio .sidewalk .pb-65 {
-    padding-bottom: 65px !important;
-}
-
-.portfolio .sidewalk .px-250 {
-    padding-left: 250px !important;
-    padding-right: 250px !important;
-}
-
-.portfolio .sidewalk .rows {
-    padding: 0 250px !important;
 }
 
 .portfolio .sidewalk .col-test {
@@ -529,7 +467,7 @@
 }
 
 .contact .sidewalk .form {
-    width: 40%;
+    width: 50%;
 }
 
 .contact .sidewalk .form .input {
@@ -550,7 +488,7 @@
 }
 
 .contact .sidewalk .form .input .text-area {
-    height: 150px;
+    height: 160px;
 }
 
 .contact .sidewalk .form .box .checkbox {
@@ -588,13 +526,13 @@
 
 /* Footer Section Starts */
 
-.footer {
+
+.footer .container-fluid{
     height: 90px;
     background: var(--white);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 250px;
 }
 
 .footer .text {

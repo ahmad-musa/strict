@@ -163,6 +163,12 @@ ul li {
     width: 992px;
 } */
 
+
+.container-fluid{
+    padding: 0;
+}
+
+
 .row {
     display: flex;
     flex-wrap: wrap;
