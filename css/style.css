@@ -67,14 +67,9 @@
 }
 
 .fixed-top {
-    background: transparent;
+    /* background: transparent; */
     border: none !important;
 }
-
-/* .navbar-fixed-top .scrolled {
-    background-color: #f4f4f4 !important;
-    transition: background-color 200ms linear;
-  } */
 
 
 /* Side Navbar Starts */
@@ -130,6 +125,7 @@
 
 #home .hero {
     width: auto;
+    background: var(--ash);
     background: url("../image/bg.png") no-repeat center;
     background-size: cover;
     color: var(--white);
@@ -247,7 +243,7 @@
 
 .service .sidewalk .col-test:hover {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px;
 }
 
@@ -352,8 +348,7 @@
     font-size: 20px;
     font-weight: 400;
     color: var(--ash);
-    margin-top: 32px;
-    /* padding: 32px 42px; */
+    margin: 32px 0 82px 0;
     text-align: center;
     box-sizing: border-box;
 }

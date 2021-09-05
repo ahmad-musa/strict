@@ -178,13 +178,6 @@ ul li {
     box-sizing: border-box;
 }
 
-.col-6{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-}
-
 
 /* // X-Small devices (portrait phones, less than 576px) */
 @media screen and (max-width: 575.98px) {
