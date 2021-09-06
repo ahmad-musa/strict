@@ -1,2 +1,2 @@
 # strict
-### Both PC & mobile responsive
+### All responsive
