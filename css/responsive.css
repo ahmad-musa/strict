@@ -137,11 +137,53 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
 
     .container-fluid{
-        padding: 0 56px;
+        padding: 0 40px;
     }
 
+    .hero .heading {
+        font-size: 90px;
+        margin: 199px 0 10px 0;
+        padding-bottom: 20px;
+        width: 75%;
+    }
 
-    
+    .service .sidewalk .heading, 
+    .portfolio .sidewalk .heading,
+    .contact .sidewalk .heading{
+        font-size: 36px;
+    }
+
+    .service .sidewalk .pure_design,
+    .portfolio .sidewalk .pure_design,
+    .contact .sidewalk .pure_design {
+        padding: 30px;
+    }
+
+    .service .sidewalk .para,
+    .portfolio .sidewalk .para,
+    .contact .sidewalk .para {
+        font-size: 18px;
+        margin: 12px 0;
+        line-height: 1.4;
+    }
+
+    .service .sidewalk .row {
+        margin: 36px 0;
+    }
+
+    .service .sidewalk .col-test {
+        margin-bottom: 36px;
+    }
+
+    .service .sidewalk .head {
+        margin-top: 12px;
+    }
+
+    .service .sidewalk .caption {
+        margin-top: 12px;
+        line-height: 1.3;
+    }
+
     .contact .sidewalk .form {
         width: 75%;
     }
@@ -152,6 +194,17 @@
         background: transparent;
         padding: 10px 30px;
         font-size: 14px;
+    }
+
+    .footer .container-fluid {
+        height: 60px;
+    }
+
+    .footer .social a {
+        width: 30px;
+        height: 30px;
+        padding: 15px;
+        margin: 4px;
     }
 
 }
@@ -167,7 +220,7 @@
 /* // Large devices (desktops, less than 1200px) */
 @media (min-width: 992px) and (max-width: 1199.98px) {  
     .container-fluid{
-        padding: 0 236px;
+        padding: 0 136px;
     }
 }
 
