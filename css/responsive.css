@@ -137,9 +137,23 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
 
     .container-fluid{
-        padding: 0 36px;
+        padding: 0 56px;
     }
+
+
     
+    .contact .sidewalk .form {
+        width: 75%;
+    }
+
+    .contact .sidewalk .form .btn-click {
+        border: 2px solid var(--color2);
+        color: var(--white);
+        background: transparent;
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+
 }
 
 /* // Medium devices (tablets, less than 992px) */
