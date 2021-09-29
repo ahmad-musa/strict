@@ -54,7 +54,7 @@
 }
 
 #Nav #navbarText .nav-link {
-    padding: 30px 0 30px 45px;
+    padding: 15px 0 15px 45px;
     color: var(--white);
     font-size: 24px;
     font-family: var(--lato);
@@ -492,22 +492,27 @@ body.side-menu-visible #side-menu {
     height: 160px;
 }
 
-.contact .sidewalk .form .box .checkbox {
-    padding: 50px;
-    /* width: 120px;  */
-    margin: 20px 20px 20px 0;
-    /* background: var(--white); */
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
 .contact .sidewalk .form .box {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.contact .sidewalk .form .box .box_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact .sidewalk .form .box .checkbox {
+    padding: 50px;
+    /* width: 120px;  */
+    margin: 20px 20px 20px 0;
+    /* background: var(--white); */
+    /* display: inline-flex; */
+    /* align-items: center;
+    justify-content: space-evenly; */
+}
 
 .contact .sidewalk .form .btn-click {
     border: 2px solid var(--color2);
@@ -527,9 +532,8 @@ body.side-menu-visible #side-menu {
 
 /* Footer Section Starts */
 
-
 .footer .container-fluid{
-    height: 90px;
+    /* height: 90px; */
     background: var(--white);
     display: flex;
     justify-content: space-between;

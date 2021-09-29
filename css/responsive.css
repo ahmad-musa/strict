@@ -222,6 +222,11 @@
     .container-fluid{
         padding: 0 136px;
     }
+
+    .footer{
+        padding: 5px 0;
+    }
+    
 }
 
 /* // X-Large devices (large desktops, less than 1400px) */
@@ -230,6 +235,11 @@
         /* width: 1114px; */
         padding: 0 236px;
     }
+
+    .footer{
+        padding: 10px 0;
+    }
+    
 }
 
 @media (min-width: 1400px) { 
@@ -237,4 +247,9 @@
         /* width: 1114px; */
         padding: 0 236px;
     }
+
+    .footer{
+        padding: 10px 0;
+    }
+    
 }
