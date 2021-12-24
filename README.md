@@ -1,2 +1,3 @@
 # strict
-### All responsive
+## All responsive
+### https://ahmad-musa.github.io/strict/
